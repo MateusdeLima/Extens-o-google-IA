@@ -1,0 +1,79 @@
+/* Estilos personalizados */
+.conteudo {
+    margin-top: 50px;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 7px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    height: 40px;
+}
+
+.btn {
+    background-color: #ffffff; /* Cor de fundo inicial (branca) */
+    width: 100%; /* Largura do botão */
+    height: 40px; /* Altura do botão */
+    color: #FF6600; /* Cor do texto inicial (preto) */
+    border: 2px solid #FF6600; /* Cor da borda (laranja Shopee) */
+    font-weight: bold; /* Texto em negrito */
+    text-align: center; /* Centralizar o texto */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mãozinha ao passar sobre o botão */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transições suaves */
+}
+
+.btn:hover {
+    background-color: #FF6600; /* Cor de fundo no hover (laranja Shopee) */
+    color: #ffffff; /* Cor do texto no hover (branco) */
+    border-color: #000000; /* Cor da borda no hover (laranja Shopee) */
+}
+
+.copy-btn {
+    background-color: #ffffff; /* Cor de fundo inicial (branca) */
+    width: 79%; /* Largura do botão */
+    height: 40px; /* Altura do botão */
+    color: #FF6600; /* Cor do texto inicial (preto) */
+    border: 2px solid #FF6600; /* Cor da borda (laranja Shopee) */
+    font-weight: bold; /* Texto em negrito */
+    text-align: center; /* Centralizar o texto */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mãozinha ao passar sobre o botão */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin: 7px; /
+}
+
+.copy-btn:hover {
+    background-color: #FF6600; /* Cor de fundo no hover (laranja Shopee) */
+    color: #ffffff; /* Cor do texto no hover (branco) */
+    border-color: #000000; /* Cor da borda no hover (laranja Shopee) */
+}
+
+body {
+    background-color: #fb5533;
+    background-size: cover;
+    color: #fff;
+}
+
+#results {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    display: none; /* Inicialmente oculto */
+    margin: 7px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

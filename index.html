@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">    
+    <title>Gerador de Tópicos</title>    
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container d-flex justify-content-center w-100">
+            <a class="navbar-brand logo" href="#" style="color: rgb(255, 255, 255);">
+                <i class="fa-solid fa-brain" style="color: #FF6600; height: 40px;"></i>
+                Generator KW SPU
+            </a>
+        </div>
+    </nav>
+    <!-- Conteúdo principal -->
+    <div class="container conteudo">
+        <h1 class="text-center mt-4" style="color: rgb(255, 255, 255);">Gerador de Keywords</h1>
+        <p class="text-center" style="color: rgb(255, 255, 255);">Enter the title and generate your search keyword</p>
+        <!-- Formulário -->
+        <div class="form-container mt-4">
+            <form id="topicForm">
+                <div class="form-group">
+                    <label for="title" style="color: rgb(255, 255, 255);">Title</label>
+                    <input type="text" class="form-control" id="title" placeholder="Insert title here">
+                </div>
+                <button type="submit" class="btn">GENERATE</button>
+            </form>
+        </div>
+        <!-- Resultados -->
+        <div id="results" class="mt-4" style="color: rgb(255, 255, 255); display: none;">
+            <!-- Os tópicos gerados serão exibidos aqui -->
+        </div>
+        <!-- Botão de copiar -->
+        <div class="button-container">
+            <button id="copyButton" class="btn copy-btn" style="display: none;">COPY</button>
+        </div>
+    </div>
+    <!-- Bootstrap CDN -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
